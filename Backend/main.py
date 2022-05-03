@@ -78,7 +78,7 @@ async def bench_player(player_name):
 
 
 
-    # TEST GROUND
+
 
 @app.post("/add-player/{player_name}")
 async def add_player(player_name: str, player: Player):
