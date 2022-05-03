@@ -1,0 +1,93 @@
+body{
+    background-color: #2b2716;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.roster-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.player-grid-elem{
+    height:16vw; 
+    width: 16vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 0.25em;
+    font-size: 2vw;
+    
+}
+
+.player-grid-elem img{
+    max-width: 12vh;
+    max-height: 12vh;
+}
+
+.player-grid-elem:hover{
+    background-color: #3f3920;
+}
+
+.hiddenDiv{
+    background-color: #B98321;
+    color: #312C1A;
+    height: 16vw;
+    width: 16vw; 
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.1vw;
+}
+.hiddenDiv p{
+    padding-left: 0.5em;
+}
+.hiddenDiv a{
+    padding-left: 0.5em;
+}
+
+.hide{
+    display: none;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.bench-list-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bench-list-div li{
+    list-style-type: decimal;
+    display: flex;
+}

@@ -1,0 +1,98 @@
+{
+    "bench-list": [
+        "smoer",
+        "frejale",
+        "zifa",
+        "lorien",
+        "powellina",
+        "astrenna",
+        "lockens",
+        "shutdown",
+        "dokteren"
+    ],
+    "players": {
+        "smoer": {
+            "name": "smoer",
+            "class": "hunter",
+            "spec": "survival",
+            "role": "ranged dps",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "frejale": {
+            "name": "frejale",
+            "class": "rogue",
+            "spec": "combat",
+            "role": "melee dps",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "dokteren": {
+            "name": "dokteren",
+            "class": "priest",
+            "spec": "holy",
+            "role": "healer",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": [
+                "Mar 31 20:54:13 2022"
+            ]
+        },
+        "zifa": {
+            "name": "zifa",
+            "class": "mage",
+            "spec": "arcane",
+            "role": "ranged dps",
+            "rank": "officer",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "lorien": {
+            "name": "lorien",
+            "class": "druid",
+            "spec": "feral",
+            "role": "tank",
+            "rank": "guild master",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "astrenna": {
+            "name": "astrenna",
+            "class": "paladin",
+            "spec": "protection",
+            "role": "tank",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "powellina": {
+            "name": "powellina",
+            "class": "shaman",
+            "spec": "enhancement",
+            "role": "melee dps",
+            "rank": "officer",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "lockens": {
+            "name": "lockens",
+            "class": "warlock",
+            "spec": "destruction",
+            "role": "ranged dps",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": []
+        },
+        "shutdown": {
+            "name": "shutdown",
+            "class": "warrior",
+            "spec": "fury",
+            "role": "melee dps",
+            "rank": "raider",
+            "bench-count": 0,
+            "bench-history": []
+        }
+    }
+}
